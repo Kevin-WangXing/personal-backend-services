@@ -13,6 +13,7 @@ setup_logging()
 
 # 路由
 from routes.drawing import router as drawing_router
+from routes.wechat import router as wechat_router
 
 app = FastAPI(
     title="FastAPI Demo Server",
@@ -22,6 +23,7 @@ app = FastAPI(
 
 # 注册路由
 app.include_router(drawing_router)
+app.include_router(wechat_router)
 
 # ============ 原有 CRUD 功能（保留）============
 
@@ -51,7 +53,7 @@ async def root():
     return {
         "message": "欢迎使用 FastAPI Demo 服务器",
         "version": "2.0.0",
-        "modules": ["AI 绘图 (ai_draw)"],
+        "modules": ["AI 绘图 (ai_draw)", "微信公众号文章 (wechat)"],
         "endpoints": {
             "health": "/health",
             "items": "/items",
@@ -59,6 +61,7 @@ async def root():
             "ai_draw_status": "/ai/draw/{task_id}/status",
             "ai_draw_download": "/ai/draw/{task_id}/download",
             "ai_draw_history": "/ai/draw/history",
+            "wechat_article": "/wechat/article (POST)",
         }
     }
 
