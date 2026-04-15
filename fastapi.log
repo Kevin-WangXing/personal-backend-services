@@ -1,0 +1,403 @@
+INFO:     Started server process [3345945]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:33762 - "GET /health HTTP/1.1" 200 OK
+INFO:     115.171.36.211:41248 - "GET /health HTTP/1.1" 200 OK
+2026-04-10 23:24:12,146 - api_access - INFO - GET /ai/draw/738a79ec-1a2e-49b0-a77a-2f5c13715065/status - Status: 404
+INFO:     115.171.36.211:41252 - "GET /ai/draw/738a79ec-1a2e-49b0-a77a-2f5c13715065/status HTTP/1.1" 404 Not Found
+2026-04-10 23:24:29,689 - api_access - INFO - GET /ai/draw/history - Status: 200
+2026-04-10 23:24:29,690 - ai_drawing - INFO - Task history: History requested - Returning 0 tasks
+INFO:     43.159.169.8:34528 - "GET /ai/draw/history HTTP/1.1" 200 OK
+2026-04-10 23:24:35,452 - api_access - INFO - GET /ai/draw/history - Status: 200
+2026-04-10 23:24:35,452 - ai_drawing - INFO - Task history: History requested - Returning 0 tasks
+INFO:     115.171.36.211:41274 - "GET /ai/draw/history HTTP/1.1" 200 OK
+INFO:     115.171.36.211:41728 - "GET /health HTTP/1.1" 200 OK
+INFO:     20.64.104.235:39360 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     112.124.56.16:33740 - "GET / HTTP/1.0" 200 OK
+INFO:     112.124.56.16:33986 - "GET /nmaplowercheck1775840640 HTTP/1.1" 404 Not Found
+INFO:     112.124.56.16:33988 - "POST /sdk HTTP/1.1" 404 Not Found
+INFO:     112.124.56.16:33984 - "GET / HTTP/1.0" 200 OK
+INFO:     112.124.56.16:34006 - "GET /evox/about HTTP/1.1" 404 Not Found
+INFO:     112.124.56.16:34008 - "GET /HNAP1 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     112.124.56.16:34392 - "GET / HTTP/1.0" 200 OK
+INFO:     112.124.56.16:34404 - "GET / HTTP/1.1" 200 OK
+INFO:     180.101.244.13:38200 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     85.217.149.51:47346 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     165.154.179.204:38286 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.179.204:38288 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     165.154.179.204:50580 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     165.154.179.204:50586 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     165.154.179.204:50588 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     165.154.179.204:50598 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     165.154.179.204:50610 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     165.154.179.204:50614 - "GET /mcp-sse HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     147.185.132.58:63542 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.224.93:61796 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.224.93:44364 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.224.93:44404 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.224.93:44464 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.224.93:26664 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.126:50222 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.126:53436 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.126:53448 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.195.126:59908 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.126:59932 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     3.131.220.121:52750 - "GET / HTTP/1.1" 200 OK
+INFO:     3.131.220.121:35646 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     77.90.185.118:43964 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.172:60280 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.181:37273 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     71.6.135.131:38678 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.135.131:39734 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     138.197.16.14:58460 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     217.145.72.164:20076 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     217.145.72.164:20076 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     217.145.72.164:20076 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     217.145.72.164:20076 - "GET /.env.local HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     185.247.137.58:41701 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.88:60326 - "GET / HTTP/1.1" 200 OK
+INFO:     77.90.185.118:38276 - "GET / HTTP/1.1" 200 OK
+INFO:     204.76.203.215:36918 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     20.221.68.74:54036 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     180.101.244.14:41310 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     77.90.185.118:49922 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.224.228:41472 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.224.228:55352 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.224.228:42040 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.224.228:25652 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /.env.old HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /.env.bak HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /.env.save HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /.env.prod HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /aws-sdk.config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /aws-exports.js HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /aws-config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /config/aws-sdk.config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /credentials.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /config/credentials.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /serviceAccountKey.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /firebase-adminsdk.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /firebase-config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /gcloud-service-key.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:33868 - "GET /google-credentials.json HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     216.218.206.66:62288 - "GET / HTTP/1.1" 200 OK
+INFO:     216.218.206.66:58650 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     134.122.41.216:35364 - "GET / HTTP/1.1" 200 OK
+INFO:     134.122.41.216:35374 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     71.6.135.131:54958 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.135.131:55048 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     34.38.201.223:41200 - "GET / HTTP/1.1" 200 OK
+INFO:     101.249.61.68:42305 - "GET / HTTP/1.1" 200 OK
+INFO:     60.16.198.98:56334 - "GET / HTTP/1.1" 200 OK
+INFO:     58.212.237.34:12369 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     54.219.197.15:40846 - "GET / HTTP/1.1" 200 OK
+INFO:     217.145.72.153:53338 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /.env.old HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /.env.bak HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /.env.save HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /.env.prod HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /aws-sdk.config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /aws-exports.js HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /aws-config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /config/aws-sdk.config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /credentials.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /config/credentials.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /serviceAccountKey.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /firebase-adminsdk.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /firebase-config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /gcloud-service-key.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:53338 - "GET /google-credentials.json HTTP/1.1" 404 Not Found
+INFO:     198.235.24.123:60826 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.154.147:50864 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.154.147:40502 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.154.147:40520 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.147:35780 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.154.147:35798 - "GET /wiki HTTP/1.1" 404 Not Found
+INFO:     180.101.245.246:55118 - "GET / HTTP/1.1" 200 OK
+INFO:     31.58.214.23:32844 - "GET /langflow.db HTTP/1.0" 404 Not Found
+INFO:     16.58.56.214:41750 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.82.78.106:60346 - "GET / HTTP/1.1" 200 OK
+INFO:     45.131.155.110:42590 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     198.235.24.214:60818 - "GET / HTTP/1.1" 200 OK
+INFO:     85.217.149.43:43064 - "GET / HTTP/1.1" 200 OK
+INFO:     31.58.214.23:32785 - "GET /.continue/config.json HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     71.6.158.166:36054 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.158.166:36570 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /.env.old HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /.env.bak HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /.env.save HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /.env.prod HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /aws-sdk.config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /aws-exports.js HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /aws-config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /config/aws-sdk.config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /credentials.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /config/credentials.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /serviceAccountKey.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /firebase-adminsdk.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /firebase-config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /gcloud-service-key.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:56448 - "GET /google-credentials.json HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     31.58.214.23:32819 - "GET /credentials.json HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     18.116.101.220:34906 - "GET / HTTP/1.1" 200 OK
+INFO:     18.116.101.220:43348 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     47.77.221.175:10988 - "GET / HTTP/1.1" 200 OK
+INFO:     47.77.221.175:11002 - "GET / HTTP/1.1" 200 OK
+INFO:     172.202.118.19:60118 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.44:31670 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.44:10850 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.44:10860 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.195.44:10898 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.44:2082 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     31.58.214.23:32775 - "GET /.env.staging HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     172.232.188.177:36800 - "GET / HTTP/1.0" 200 OK
+INFO:     172.232.188.177:36816 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+INFO:     172.232.188.177:36826 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     172.232.188.177:36906 - "GET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     172.232.188.177:37064 - "GET /devicedesc.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     172.232.188.177:39508 - "GET /cgi-mod/header_logo.cgi?size=big HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     172.232.188.177:39548 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39558 - "GET /ise/img/rm-logo_small.png HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39586 - "GET /images/logo.png HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39596 - "GET /phoenix/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39612 - "GET /assets/png/favicon-abe32304.png HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39630 - "GET /App_Themes/Default/Images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39640 - "GET /images/logo.gif HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39650 - "GET /assets/img/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39656 - "GET /themes/admin/default/build/assets/favicon-19fbef86.svg HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39660 - "GET /dashboard/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39672 - "GET /kubepi/fav.png HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39676 - "GET /public/static/favicon.png HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39692 - "GET /assets/favicon.png HTTP/1.1" 404 Not Found
+INFO:     172.232.188.177:39518 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     217.145.72.153:49250 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /.env.old HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /.env.bak HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /.env.save HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /.env.prod HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /aws-sdk.config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /aws-exports.js HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /aws-config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /config/aws-sdk.config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /credentials.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /config/credentials.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /serviceAccountKey.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /firebase-adminsdk.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /firebase-config.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /gcloud-service-key.json HTTP/1.1" 404 Not Found
+INFO:     217.145.72.153:49250 - "GET /google-credentials.json HTTP/1.1" 404 Not Found
+INFO:     34.52.173.82:57258 - "GET / HTTP/1.1" 200 OK
+INFO:     103.203.57.26:42578 - "GET /echo.php?info=20260413100723 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     34.62.248.29:33748 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     81.29.142.6:18614 - "GET / HTTP/1.1" 200 OK
+INFO:     81.29.142.6:18614 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     106.75.155.75:58490 - "GET / HTTP/1.1" 200 OK
+INFO:     106.75.155.75:58490 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     137.184.167.159:35320 - "GET / HTTP/1.1" 200 OK
+INFO:     137.184.167.159:35324 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     3.129.187.38:46984 - "GET / HTTP/1.1" 200 OK
+INFO:     3.129.187.38:33936 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     205.210.31.85:57434 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.191:6818 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.191:6836 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.172.191:17634 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.191:23798 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     195.184.76.38:35289 - "GET / HTTP/1.1" 200 OK
+INFO:     195.184.76.67:44799 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     180.101.244.12:16904 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     20.29.57.244:36790 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     185.247.137.59:60605 - "GET / HTTP/1.1" 200 OK
+INFO:     180.101.245.250:49918 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.50:36400 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.50:15850 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.50:15864 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.50:15896 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.50:38870 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.194:9132 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.194:9158 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.172.194:9186 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.194:50254 - "GET /security.txt HTTP/1.1" 404 Not Found
+INFO:     85.217.149.57:37446 - "GET / HTTP/1.1" 200 OK
+INFO:     205.210.31.177:61780 - "GET / HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3345945]

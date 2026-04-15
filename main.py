@@ -14,6 +14,7 @@ setup_logging()
 # 路由
 from routes.drawing import router as drawing_router
 from routes.wechat import router as wechat_router
+from routes.removebg import router as removebg_router
 
 app = FastAPI(
     title="FastAPI Demo Server",
@@ -24,6 +25,7 @@ app = FastAPI(
 # 注册路由
 app.include_router(drawing_router)
 app.include_router(wechat_router)
+app.include_router(removebg_router)
 
 # ============ 原有 CRUD 功能（保留）============
 
@@ -52,7 +54,7 @@ class ItemUpdate(BaseModel):
 async def root():
     return {
         "message": "欢迎使用 FastAPI Demo 服务器",
-        "version": "2.0.0",
+ "modules": ["AI 绘图 (ai_draw)", "微信公众号文章 (wechat)", "Remove.bg 抠图 (removebg)"],
         "modules": ["AI 绘图 (ai_draw)", "微信公众号文章 (wechat)"],
         "endpoints": {
             "health": "/health",
@@ -60,7 +62,9 @@ async def root():
             "ai_draw": "/ai/draw",
             "ai_draw_status": "/ai/draw/{task_id}/status",
             "ai_draw_download": "/ai/draw/{task_id}/download",
-            "ai_draw_history": "/ai/draw/history",
+            "wechat_article": "/wechat/article (POST)",
+            "removebg": "/removebg (POST)",
+            "removebg_download": "/removebg/download/{filename}",
             "wechat_article": "/wechat/article (POST)",
         }
     }
