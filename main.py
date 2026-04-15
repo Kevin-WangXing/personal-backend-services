@@ -55,7 +55,6 @@ async def root():
     return {
         "message": "欢迎使用 FastAPI Demo 服务器",
  "modules": ["AI 绘图 (ai_draw)", "微信公众号文章 (wechat)", "Remove.bg 抠图 (removebg)"],
-        "modules": ["AI 绘图 (ai_draw)", "微信公众号文章 (wechat)"],
         "endpoints": {
             "health": "/health",
             "items": "/items",
@@ -65,7 +64,6 @@ async def root():
             "wechat_article": "/wechat/article (POST)",
             "removebg": "/removebg (POST)",
             "removebg_download": "/removebg/download/{filename}",
-            "wechat_article": "/wechat/article (POST)",
         }
     }
 
