@@ -1,8 +1,7 @@
 """
 微信公众号文章路由
 """
-from typing import Optional
-from fastapi import APIRouter, HTTPException, Header
+from fastapi import APIRouter, HTTPException
 
 from models.wechat import WechatArticleRequest, WechatParagraphs
 from services.wechat_service import wechat_service
@@ -12,10 +11,7 @@ router = APIRouter(prefix="/wechat", tags=["微信公众号文章"])
 
 
 @router.post("/article", response_model=list)
-async def get_wechat_article(
-    request: WechatArticleRequest,
-    user_agent: Optional[str] = Header(default=None, alias="User-Agent"),
-):
+async def get_wechat_article(request: WechatArticleRequest):
     """
     根据微信公众号文章链接获取文章内容
 
@@ -38,10 +34,7 @@ async def get_wechat_article(
         log_api_access("/wechat/article", "POST", 400)
         raise HTTPException(status_code=400, detail="Invalid WeChat article URL")
 
-    result = await wechat_service.fetch_article(
-        url=request.wechat_url,
-        user_agent=user_agent,
-    )
+    result = await wechat_service.fetch_article(url=request.wechat_url)
 
     if result is None:
         log_api_access("/wechat/article", "POST", 500)
