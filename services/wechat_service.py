@@ -32,7 +32,7 @@ class WechatService:
 
         返回格式:
         {
-            "title": "【微信】文章标题",
+            "title": "文章标题",
             "paragraphs": ["01", "第一段", "02", "第二段", ...]
         }
         """
@@ -54,10 +54,13 @@ class WechatService:
             paragraphs = []
             for line in lines:
                 line = line.strip()
-                if line:
-                    paragraphs.append(line)
+                if not line:
+                    continue
+                # 去掉 ** 标记，如 **01** → 01
+                line = line.replace("**", "")
+                paragraphs.append(line)
 
-            title = f"【微信】{result.article_title}"
+            title = result.article_title
 
             log_ai_drawing_event("wechat", "Article fetched", title)
 
